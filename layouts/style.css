@@ -14,14 +14,14 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1100px;
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
 }
 
 .main-header {
-  background-color: #f7f7f7;
+  background-color: #a36262;
   /* padding: 20px;
   padding-left: 40px;
   padding-right: 40px; */
@@ -265,3 +265,39 @@ footer p {
 nav p {
   font-size: 18px;
 } */
+
+/* float property */
+.author {
+  float: left;
+  margin-left: 10px;
+  padding: 10px;
+}
+.author-image {
+  float: left;
+  margin-bottom: 10px;
+}
+nav {
+  float: right;
+}
+h1 {
+  float: left;
+}
+.clear {
+  clear: both;
+}
+article {
+  background-color: rgb(185, 240, 222);
+  float: left;
+  width: 750px;
+  border-radius: 9px;
+}
+aside {
+  background-color: antiquewhite;
+  float: right;
+  width: 306px;
+  border-radius: 9px;
+}
+footer {
+  background-color: rgb(161, 161, 80);
+  clear: both;
+}
